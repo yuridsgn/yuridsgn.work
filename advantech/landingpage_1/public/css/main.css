@@ -38,14 +38,21 @@ a:hover {
 /*主視覺*/
 #adventech-lp .lp-header{
   background: #DDDDDD;
-  height: 400px
+  height: 400px;
+}
+#adventech-lp .lp-header .kv-banner-container{
+}
+#adventech-lp .lp-header .kv-banner{
+  height: 400px;
 }
 
 /*選單*/
 #adventech-lp .lp-nav{
   background: #F29B00;
-  height: 68px;
+  min-height: 68px;
   font-size: 18px;
+  position: relative;
+  overflow: auto;
   color:#FFFFFF;
   padding: 0 20px;
 }

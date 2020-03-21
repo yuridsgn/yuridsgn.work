@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    // 首頁上方大banner    
-    var indexMainBanner = new Swiper('.swiper-container.index-main-banner', {
+    // 主視覺上方大banner    
+    var kvBanner = new Swiper('.swiper-container', {
         //-direction: 'vertical', // 垂直選項切換
         loop: true, // 循環模式
         autoplay: true, // 自動播放
