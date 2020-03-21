@@ -42,6 +42,16 @@ a:hover {
 }
 #adventech-lp .lp-header .kv-banner-container{
 }
+#adventech-lp .lp-header .kv-banner-container .swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0; /*設定點點形狀、大小*/
+}
+#adventech-lp .lp-header .kv-banner-container .swiper-pagination .swiper-pagination-bullet-active {
+    background: #FFFFFF;/*設定點點顏色*/
+}
+#adventech-lp .lp-header .kv-banner-container .swiper-button-prev,#adventech-lp .lp-header .kv-banner-container .swiper-button-next{
+    color: #FFF;
+    opacity: 0.3;
+}
 #adventech-lp .lp-header .kv-banner{
   height: 400px;
 }
@@ -134,9 +144,13 @@ a:hover {
 /*影片*/
 #adventech-lp .lp-video{
   background: #00B2BB;
-  padding: 20px 20px 50px 20px;
+  padding: 20px 20px 30px 20px;
   color: #FFFFFF;
 }
+#adventech-lp .lp-video-row{
+box-sizing:border-box;
+}
+
 #adventech-lp .lp-video iframe{
   width: 100%;
   height: 315px;
@@ -159,6 +173,39 @@ a:hover {
   text-align: justify;
 }
 
+#adventech-lp .lp-video-out-container{
+    position: relative;
+}
+#adventech-lp .lp-video-container .swiper-pagination{
+	position: static;
+    margin-top: 10px;
+}
+#adventech-lp .lp-video-container .swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0; /*設定點點形狀、大小*/
+    width: 16px;
+    height: 16px;
+}
+#adventech-lp .lp-video-container .swiper-pagination .swiper-pagination-bullet-active {
+    background: #EAFEFF;/*設定點點顏色*/
+}
+
+#adventech-lp .lp-video-swiper-button {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 43%;
+
+}
+#adventech-lp .lp-video-swiper-button .swiper-button-prev,#adventech-lp .lp-video-swiper-button .swiper-button-next{
+    color: #FFF;
+    opacity: 0.3;
+}
+#adventech-lp .lp-video-swiper-button .swiper-button-prev{
+    left: -60px;
+}
+#adventech-lp .lp-video-swiper-button .swiper-button-next{
+    right: -60px;
+}
 /*Banner*/
 #adventech-lp .lp-banner{
   padding: 20px;
@@ -173,6 +220,7 @@ a:hover {
   background: #FFFFFF;
     padding: 20px;
     display: block;
+    margin-bottom: 20px;
 }
 #adventech-lp .lp-product .product-item:hover{
     box-shadow: 0px 0px 8px #DDDDDD;
