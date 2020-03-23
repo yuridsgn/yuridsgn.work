@@ -14,6 +14,7 @@ a {
   color: #6C6C6C;
   text-decoration: none;
   display: inline;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -140,17 +141,26 @@ a:hover {
   text-align: justify;
 }
 
+#adventech-lp .lp-case .lp-case-more{
+  color: #A6A6A6;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+#adventech-lp .hide-case{
+  display: none;
+  width: 100%;
 
+}
 /*影片*/
 #adventech-lp .lp-video{
   background: #00B2BB;
   padding: 20px 20px 30px 20px;
   color: #FFFFFF;
 }
-#adventech-lp .lp-video-row{
-box-sizing:border-box;
-}
-
 #adventech-lp .lp-video iframe{
   width: 100%;
   height: 315px;
@@ -176,6 +186,10 @@ box-sizing:border-box;
 #adventech-lp .lp-video-out-container{
     position: relative;
 }
+#adventech-lp .lp-video-row{
+box-sizing:border-box;
+}
+
 #adventech-lp .lp-video-container .swiper-pagination{
 	position: static;
     margin-top: 10px;
@@ -197,7 +211,7 @@ box-sizing:border-box;
 
 }
 #adventech-lp .lp-video-swiper-button .swiper-button-prev,#adventech-lp .lp-video-swiper-button .swiper-button-next{
-    color: #FFF;
+    color: #FFF;/*設定箭頭顏色*/
     opacity: 0.3;
 }
 #adventech-lp .lp-video-swiper-button .swiper-button-prev{
@@ -254,6 +268,45 @@ box-sizing:border-box;
   color: #ABABAB;
   margin-left: 3px;
 }
+#adventech-lp .lp-product-out-container{
+    position: relative;
+}
+#adventech-lp .lp-product-row{
+box-sizing:border-box;
+}
+
+#adventech-lp .lp-product-container .swiper-pagination{
+	position: static;
+    margin-top: 10px;
+  display: none;
+}
+#adventech-lp .lp-product-container .swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0; /*設定點點形狀、大小*/
+    width: 16px;
+    height: 16px;
+}
+#adventech-lp .lp-product-container .swiper-pagination .swiper-pagination-bullet-active {
+    background: #EAFEFF;/*設定點點顏色*/
+}
+
+#adventech-lp .lp-product-swiper-button {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 45%;
+
+}
+#adventech-lp .lp-product-swiper-button .swiper-button-prev,#adventech-lp .lp-product-swiper-button .swiper-button-next{
+    color: #666666;/*設定箭頭顏色*/
+    opacity: 0.3;
+}
+#adventech-lp .lp-product-swiper-button .swiper-button-prev{
+    left: -60px;
+}
+#adventech-lp .lp-product-swiper-button .swiper-button-next{
+    right: -60px;
+}
+
 /*聯絡*/
 #adventech-lp .lp-contact{
   background: #00B2BB;
