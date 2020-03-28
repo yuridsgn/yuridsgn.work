@@ -3,7 +3,7 @@ $(document).ready(function () {
     var kvBanner = new Swiper('.swiper-container.kv-banner-container', {
         //-direction: 'vertical', // 垂直選項切換
         loop: true, // 循環模式
-        autoplay: false, // 自動播放
+        autoplay: true, // 自動播放
         // 分頁
         pagination: {
             el: '.swiper-pagination',
@@ -36,21 +36,41 @@ $(document).ready(function () {
         },
     })
 
-    // 產品
-    var lpProducts = new Swiper('.swiper-container.lp-product-container', {
+    // 產品 輪播的列數可自由增長，不足的項目會留白
+    var lpProductsA = new Swiper('#lp-product-1', {
 
-        loop:true, // 循環模式
+        loop: true, // 循環模式
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
         // 切換前後按鈕
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '#lp-product-1-button-next',
+            prevEl: '#lp-product-1-button-prev',
         }
 
     });
+  
+      // 產品 輪播的列數一列、不足的商品數會由第一個補上
+        var lpProductsB = new Swiper('#lp-product-2', {
+        loop: true, // 循環模式
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup:3,
+        // 分頁
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+
+        // 切換前後按鈕
+        navigation: {
+            nextEl: '#lp-product-2-button-next',
+            prevEl: '#lp-product-2-button-prev',
+        },
+    })
+
 
 })
 

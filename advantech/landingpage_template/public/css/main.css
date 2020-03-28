@@ -238,22 +238,22 @@ box-sizing:border-box;
   padding: 20px;
 }
 #adventech-lp .lp-banner .deco-banner{
-    background: #E1F5FE;
-    height: 398.5px;/*原尺寸436.5px*/
+    background: #DDDDDD;
+    height: 436.5px;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    margin: 20px 0;
+    margin: 0;
 }
 #adventech-lp .lp-banner .deco-banner .rect-1{
-    background: #8FC3FF;
+    background: #EEEEEE;
     height: 250px;
     width: 28px;
     position: absolute;
     right: 55px
 }
 #adventech-lp .lp-banner .deco-banner .rect-2{
-    background: #FF6052;
+    background: #CCCCCC;
     height: 80px;
     width: 28px;
     position: absolute;
@@ -262,12 +262,12 @@ box-sizing:border-box;
 }
 #adventech-lp .lp-banner .deco-banner .brand-text{
     position: absolute;
-    color: #00427F;
+    color: #FFFFFF;
     font-weight: bold;
     font-style:italic;
     font-size: 40px;
     transform: rotate(90deg);
-    top:220px;
+    top:240px;
     left: -30px;
     letter-spacing: -2px;
     z-index: 2;
@@ -351,7 +351,7 @@ box-sizing:border-box;
   background:var(--primary-color);
   text-align: center;
 }
-#adventech-lp .lp-product-out-container{
+#adventech-lp .lp-product-out-container,#adventech-lp .lp-product-out-container{
     position: relative;
 }
 #adventech-lp .lp-product-row{
@@ -416,7 +416,7 @@ box-sizing:border-box;
 
 /*底部Banner*/
 #adventech-lp .lp-footer{
-  background: url("../images/template/LinkedIn-1192x300.jpg") no-repeat 50%;
+  background: url("../images/template/lp-footer.jpg") no-repeat 50%;
   height: 300px;
 }
 
