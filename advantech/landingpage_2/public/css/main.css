@@ -28,7 +28,13 @@ a:hover {
 
 /*商城header footer最外層
 .eStore_wrapper{min-height:100%; height:auto!important; height:100%; background-color:#fff;}*/
-
+.eStore_container .eStore_block980{
+    width:980px
+}
+.eStore_block980{
+    width:980px;
+    margin:0 auto
+}
 /*landing page最外層*/
 #adventech-lp{
   /*最外層命名 避免CSS衝突*/
@@ -128,7 +134,11 @@ a:hover {
   text-decoration: none;
   margin-bottom: 20px;
 }
-
+#adventech-lp .lp-point h3{
+  margin-top: 10px;
+  font-weight: bold;
+  border-bottom: none;
+}
 /*成功案例*/
 #adventech-lp .lp-case{
   background: #F9F9F9;
