@@ -28,7 +28,13 @@ a:hover {
 
 /*商城header footer最外層
 .eStore_wrapper{min-height:100%; height:auto!important; height:100%; background-color:#fff;}*/
-
+.eStore_container .eStore_block980{
+    width:980px
+}
+.eStore_block980{
+    width:980px;
+    margin:0 auto
+}
 /*landing page最外層*/
 #adventech-lp{
   /*最外層命名 避免CSS衝突*/
@@ -98,19 +104,20 @@ a:hover {
 #adventech-lp .lp-description{
   clear: both;
   padding: 20px;
-  font-size: 18px;
+
  
 }
 #adventech-lp .lp-description p{
   line-height: 30px;
   text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /*痛點*/
 #adventech-lp .lp-point{
   padding: 20px;
   text-align: center;
-  font-size: 16px;
   color: #72808E;
 }
 #adventech-lp .lp-point img{
@@ -118,6 +125,7 @@ a:hover {
 }
 #adventech-lp .lp-point p{
     margin-top: 20px;
+    font-size: 16px;
 }
 #adventech-lp .lp-point h2 ,#adventech-lp .lp-point h2 a{
   font-weight: bold;
@@ -152,9 +160,10 @@ a:hover {
 }
 #adventech-lp .lp-case p{
    margin-top: 20px;    
-  font-size: 22px;
   text-align: justify;
-  line-height: 1.2;
+    font-size: 18px;
+  line-height: 1.7;
+
 }
 
 #adventech-lp .lp-case .lp-case-more{
@@ -195,9 +204,9 @@ a:hover {
 }
 #adventech-lp .lp-video p{
   margin-top: 20px;    
-  font-size: 22px;
   text-align: justify;
-    line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 #adventech-lp .lp-video-out-container{
