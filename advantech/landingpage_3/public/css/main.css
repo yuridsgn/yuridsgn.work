@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "PingFangTC-Regular", "PingFangTC", Arial, Helvetica, "HeitiTC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 400;
   line-height: 1.5;
   color: #6C6C6C;
@@ -22,13 +22,19 @@ a:hover {
     text-decoration: none;
 }
 :root {
-  --primary-color: #F29B00;
-  --second-color: #00B2BB;
+  --primary-color: #4299F0;
+  --second-color: #F29B00;
 }
 
-/*商城header footer最外層*/
-.eStore_wrapper{min-height:100%; height:auto!important; height:100%; background-color:#fff;}
-
+/*商城header footer最外層
+.eStore_wrapper{min-height:100%; height:auto!important; height:100%; background-color:#fff;}*/
+.eStore_container .eStore_block980{
+    width:980px
+}
+.eStore_block980{
+    width:980px;
+    margin:0 auto
+}
 /*landing page最外層*/
 #adventech-lp{
   /*最外層命名 避免CSS衝突*/
@@ -60,6 +66,7 @@ a:hover {
 }
 #adventech-lp .lp-header .kv-banner{
   height: 400px;
+  background: url("../images/kv-banner/Banner_2560x400.jpg") no-repeat 50% ;
 }
 
 /*選單*/
@@ -90,24 +97,28 @@ a:hover {
   padding: 20px 15px;
 }
 #adventech-lp .lp-nav ul li a:hover{
-  background: #DF8600;
+  background: #2988E8;
 }
 
 /*描述*/
 #adventech-lp .lp-description{
   clear: both;
   padding: 20px;
+
  
 }
 #adventech-lp .lp-description p{
   line-height: 30px;
   text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
+    margin-top: 65px;
 }
+
 /*痛點*/
 #adventech-lp .lp-point{
   padding: 20px;
   text-align: center;
-  font-size: 16px;
   color: #72808E;
 }
 #adventech-lp .lp-point img{
@@ -115,6 +126,7 @@ a:hover {
 }
 #adventech-lp .lp-point p{
     margin-top: 20px;
+    font-size: 16px;
 }
 #adventech-lp .lp-point h2 ,#adventech-lp .lp-point h2 a{
   font-weight: bold;
@@ -138,7 +150,7 @@ a:hover {
 #adventech-lp .lp-case h2 ,#adventech-lp .lp-case h2 a{
   font-weight: bold;
   color: #505050;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.5;
   margin: 0;
   text-decoration: none;
@@ -149,8 +161,10 @@ a:hover {
 }
 #adventech-lp .lp-case p{
    margin-top: 20px;    
-  font-size: 22px;
   text-align: justify;
+    font-size: 18px;
+  line-height: 1.7;
+
 }
 
 #adventech-lp .lp-case .lp-case-more{
@@ -171,14 +185,14 @@ a:hover {
 #adventech-lp .lp-video{
   background: var(--second-color);
   padding: 20px 20px 30px 20px;
-  color: #FFFFFF;
+  color: #060400;
 }
 #adventech-lp .lp-video iframe{
   width: 100%;
   height: 315px;
 }
 #adventech-lp .lp-video h2 ,#adventech-lp .lp-video h2 a{
-  color: #FFFA88;
+  color: #5E3C00;
   font-size: 34px;
   line-height: 1.5;
   font-weight: bold;
@@ -186,13 +200,14 @@ a:hover {
   text-decoration: none;
 }
 #adventech-lp .lp-video h2 a:hover{
-  color: #D3FEFF;
-  border-bottom: 2px solid #D3FEFF;
+  color: #000000;
+  border-bottom: 2px solid #000000;
 }
 #adventech-lp .lp-video p{
   margin-top: 20px;    
-  font-size: 22px;
   text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 #adventech-lp .lp-video-out-container{
@@ -237,22 +252,22 @@ box-sizing:border-box;
   padding: 20px;
 }
 #adventech-lp .lp-banner .deco-banner{
-    background: #DDDDDD;
-    height: 436.5px;
+    background: #262626;
+    height: 436.5px;/*原尺寸436.5px*/
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    margin: 0;
+    margin:0;
 }
 #adventech-lp .lp-banner .deco-banner .rect-1{
-    background: #EEEEEE;
+    background: #637991;
     height: 250px;
     width: 28px;
     position: absolute;
     right: 55px
 }
 #adventech-lp .lp-banner .deco-banner .rect-2{
-    background: #CCCCCC;
+    background: #712F0C;
     height: 80px;
     width: 28px;
     position: absolute;
@@ -261,12 +276,12 @@ box-sizing:border-box;
 }
 #adventech-lp .lp-banner .deco-banner .brand-text{
     position: absolute;
-    color: #FFFFFF;
+    color: #999999;
     font-weight: bold;
     font-style:italic;
     font-size: 40px;
     transform: rotate(90deg);
-    top:240px;
+    top:230px;
     left: -30px;
     letter-spacing: -2px;
     z-index: 2;
@@ -350,7 +365,7 @@ box-sizing:border-box;
   background:var(--primary-color);
   text-align: center;
 }
-#adventech-lp .lp-product-out-container,#adventech-lp .lp-product-out-container{
+#adventech-lp .lp-product-out-container{
     position: relative;
 }
 #adventech-lp .lp-product-row{
@@ -401,21 +416,22 @@ box-sizing:border-box;
 }
 #adventech-lp .lp-contact .contact-link{
   margin-left: 30px;
-  display: inline-block;
+  text-align: center;
   background: var(--primary-color);
   padding: 10px 60px;
   color: #FFFFFF;
   text-decoration: none;
   border-radius: 10px;
+
 }
 #adventech-lp .lp-contact .contact-link:hover{
-  background: #DF8600;
+  background: #2988E8;
 
 }
 
 /*底部Banner*/
 #adventech-lp .lp-footer{
-  background: url("../images/template/lp-footer.jpg") no-repeat 50%;
+  background: url("../images/template/LinkedIn-1192x300.jpg") no-repeat 50%;
   height: 300px;
 }
 
@@ -438,8 +454,8 @@ box-sizing:border-box;
 #adventech-lp .lp-h1-B{
   font-size: 40px;
   font-weight: bold;
-  color: #EAFEFF;
-  border-left:6px solid #80D4D9;
+  color: #0B0B0B;
+  border-left:6px solid #4299F0;
   line-height: 1;
   padding-left: 10px;
    margin: 30px 0;
@@ -494,7 +510,7 @@ box-sizing:border-box;
   display: inline-block;
 }
 #adventech-lp .primary-btn:hover{
-  background:#DF8600;
+  background:#2988E8;
 }
 #adventech-lp .second-btn{
   font-size: 20px;
@@ -508,7 +524,7 @@ box-sizing:border-box;
 }
 
 #adventech-lp .second-btn:hover{
-  background:#00939A;
+  background:#DF8600;
 }
 
 #adventech-lp .primary-txt-btn{
@@ -522,7 +538,7 @@ box-sizing:border-box;
 
 }
 #adventech-lp .primary-txt-btn:hover{
-  color:#DF8600;
+  color:#2988E8;
 }
 #adventech-lp .second-txt-btn{
   font-size: 20px;
@@ -535,5 +551,5 @@ box-sizing:border-box;
 }
 
 #adventech-lp .second-txt-btn:hover{
-  color:#00939A;
+  color:#DF8600;
 }
