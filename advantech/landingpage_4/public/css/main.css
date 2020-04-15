@@ -22,8 +22,8 @@ a:hover {
     text-decoration: none;
 }
 :root {
-  --primary-color: #4299F0;
-  --second-color: #F29B00;
+  --primary-color: #00457B;
+  --second-color: #EFB733;
 }
 
 /*商城header footer最外層
@@ -66,12 +66,12 @@ a:hover {
 }
 #adventech-lp .lp-header .kv-banner{
   height: 400px;
-  background: url("../images/kv-banner/Banner_2560x400.jpg") no-repeat 50% ;
+  background: url("../images/kv-banner/2560x400.jpg") no-repeat 50% ;
 }
 
 /*選單*/
 #adventech-lp .lp-nav{
-  background: #4299F0;
+  background: #00457B;
   min-height: 68px;
   font-size: 18px;
   position: relative;
@@ -108,11 +108,10 @@ a:hover {
  
 }
 #adventech-lp .lp-description p{
-  line-height: 30px;
   text-align: justify;
   font-size: 18px;
   line-height: 1.7;
-    margin-top: 65px;
+    /*margin-top: 65px;*/
 }
 
 /*痛點*/
@@ -128,23 +127,36 @@ a:hover {
     margin-top: 20px;
     font-size: 16px;
 }
+#adventech-lp .lp-point h1 ,#adventech-lp .lp-point h1 a{
+text-align: left;
+}
 #adventech-lp .lp-point h2 ,#adventech-lp .lp-point h2 a{
   font-weight: bold;
+    text-align: left;
+    padding-left: 18px;
   color: #505050;
   font-size: 34px;
   line-height: 1.5;
   margin: 0;
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+#adventech-lp .lp-point h5{
+    text-align: left;
+        padding-left: 18px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #6C6C6C;
 }
 
 /*成功案例*/
 #adventech-lp .lp-case{
-  background: #F9F9F9;
+  background: #EFEFEF;
   padding: 20px;
 }
 #adventech-lp .lp-case-border{
-  border-bottom: 6px solid #4299F0;
+  border-bottom: 6px solid #00457B;
   margin-bottom: 35px;
 }
 #adventech-lp .lp-case h2 ,#adventech-lp .lp-case h2 a{
@@ -156,8 +168,8 @@ a:hover {
   text-decoration: none;
 }
 #adventech-lp .lp-case h2 a:hover{
-  color: #F29B00;
-  border-bottom: 2px solid #F29B00;
+  color: #EFB733;
+  border-bottom: 2px solid #EFB733;
 }
 #adventech-lp .lp-case p{
    margin-top: 20px;    
@@ -183,7 +195,7 @@ a:hover {
 }
 /*影片*/
 #adventech-lp .lp-video{
-  background: #F29B00;
+  background: #EFB733;
   padding: 20px 20px 30px 20px;
   color: #060400;
 }
@@ -313,7 +325,7 @@ box-sizing:border-box;
   padding-bottom: 0;
 }
 #adventech-lp .lp-product .product-item h3.product-name{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   margin: 10px 0 10px 0;
   color:#222222;
@@ -362,7 +374,7 @@ box-sizing:border-box;
   margin: 0;
   line-height: 1.8;
   color: #FFFFFF;
-  background:#4299F0;
+  background:#00457B;
   text-align: center;
 }
 #adventech-lp .lp-product-out-container{
@@ -405,10 +417,10 @@ box-sizing:border-box;
 
 /*聯絡*/
 #adventech-lp .lp-contact{
-  background: #F29B00;
+  background: #EFB733;
   padding: 20px;
   color: #FFFFFF;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
 }
 #adventech-lp .lp-contact p{
@@ -417,7 +429,7 @@ box-sizing:border-box;
 #adventech-lp .lp-contact .contact-link{
   margin-left: 30px;
   text-align: center;
-  background: #4299F0;
+  background: #00457B;
   padding: 10px 60px;
   color: #FFFFFF;
   text-decoration: none;
@@ -442,8 +454,8 @@ box-sizing:border-box;
 #adventech-lp .lp-h1-A{
   font-size: 40px;
   font-weight: bold;
-  color: #4299F0;
-  border-left:6px solid #F29B00;
+  color: #00457B;
+  border-left:6px solid #EFB733;
   line-height: 1;
   padding-left: 10px;
   margin: 30px 0;
@@ -455,7 +467,7 @@ box-sizing:border-box;
   font-size: 40px;
   font-weight: bold;
   color: #0B0B0B;
-  border-left:6px solid #4299F0;
+  border-left:6px solid #00457B;
   line-height: 1;
   padding-left: 10px;
    margin: 30px 0;
@@ -465,10 +477,10 @@ box-sizing:border-box;
   font-size: 40px;
   font-weight: bold;
   color: #5C5C5C;
-  border-left:6px solid #F29B00;
+  border-left:6px solid #EFB733;
   line-height: 1;
   padding-left: 10px;
-   margin: 30px 0 0 0;
+  margin: 30px 0;
 }
 #adventech-lp .lp-h2-C{
   font-size: 18px;
@@ -513,7 +525,7 @@ box-sizing:border-box;
   margin: 0;
   padding: 10px 20px;
   color: #FFFFFF;
-  background:#4299F0;
+  background:#00457B;
   text-align: center;
   display: inline-block;
 }
@@ -526,7 +538,7 @@ box-sizing:border-box;
   margin: 0;
   padding: 10px 20px;
   color: #FFFFFF;
-  background:#F29B00;
+  background:#EFB733;
   text-align: center;
   display: inline-block;
 }
@@ -542,7 +554,7 @@ box-sizing:border-box;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
-  color:#4299F0;
+  color:#00457B;
 
 }
 #adventech-lp .primary-txt-btn:hover{
@@ -555,7 +567,7 @@ box-sizing:border-box;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
-  color:#F29B00;
+  color:#EFB733;
 }
 
 #adventech-lp .second-txt-btn:hover{
