@@ -87,8 +87,8 @@ a:hover {
 #adventech-lp .lp-nav ul li{
   display: block;
   float: left;
-  text-align: center;
   width: 50%;
+    text-align: center;
   font-weight: bold;    
 }
 
@@ -156,6 +156,11 @@ text-align: left;
 #adventech-lp .lp-case{
   background: #EFEFEF;
   padding: 20px;
+}
+#adventech-lp .lp-case h4{
+      font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 #adventech-lp .lp-case-border{
   border-bottom: 6px solid #00457B;
