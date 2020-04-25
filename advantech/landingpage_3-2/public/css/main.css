@@ -81,13 +81,15 @@ a:hover {
 }
 #adventech-lp .lp-nav ul{
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
 }
 #adventech-lp .lp-nav ul li{
   display: block;
   float: left;
-  font-weight: bold;    
+    width: 50%;
+  font-weight: bold;
+    text-align: center;
 }
 
 #adventech-lp .lp-nav ul li a{
@@ -356,6 +358,11 @@ box-sizing:border-box;
   color: #ABABAB;
   margin-left: 3px;
 }
+#adventech-lp .lp-product .product-item .from{
+  font-size: 13px;
+  color: #E25739;
+  margin-left: 3px;
+}
 #adventech-lp .lp-product .product-item p.product-price-btn{
   font-size: 20px;
   font-weight: bold;
@@ -468,7 +475,7 @@ box-sizing:border-box;
   border-left:6px solid #F29B00;
   line-height: 1;
   padding-left: 10px;
-   margin: 30px 0 0 0;
+   margin: 30px 0 30px 0;
 }
 #adventech-lp .lp-h2-C{
   font-size: 18px;

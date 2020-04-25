@@ -81,12 +81,14 @@ a:hover {
 }
 #adventech-lp .lp-nav ul{
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
 }
 #adventech-lp .lp-nav ul li{
   display: block;
   float: left;
+  width: 50%;
+  text-align: center;
   font-weight: bold;    
 }
 
