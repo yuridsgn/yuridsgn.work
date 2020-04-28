@@ -66,9 +66,12 @@ a:hover {
 }
 #adventech-lp .lp-header .kv-banner{
   height: 400px;
-  background: url("../images/kv-banner/2560X400.jpg") no-repeat 50% ;
+  background: url("../images/kv-banner/2560x400.jpg") no-repeat 50% ;
 }
-
+#adventech-lp .lp-header .kv-banner2{
+  height: 400px;
+  background: url("../images/kv-banner/2560x400_2.jpg") no-repeat 50% ;
+}
 /*選單*/
 #adventech-lp .lp-nav{
   background: #00457B;

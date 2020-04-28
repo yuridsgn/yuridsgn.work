@@ -3,7 +3,7 @@ $(document).ready(function () {
     var kvBanner = new Swiper('.swiper-container.kv-banner-container', {
         //-direction: 'vertical', // 垂直選項切換
         loop: true, // 循環模式
-        autoplay: false, // 自動播放
+        autoplay: true, // 自動播放
         // 分頁
         pagination: {
             el: '.swiper-pagination',
