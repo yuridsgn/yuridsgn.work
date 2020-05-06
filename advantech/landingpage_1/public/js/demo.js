@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     })
     // 影片
-        var lpVideo = new Swiper('.swiper-container.lp-video-container1', {
+        var lpVideo = new Swiper('.swiper-container.lp-video-container', {
         loop: true, // 循環模式
         autoplay: false, // 自動播放
         // 分頁
